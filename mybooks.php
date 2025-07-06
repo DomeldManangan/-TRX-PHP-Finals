@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../config/db.php';
+require_once '../-TRX-PHP-Finals/config/db.php';
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'student') {
     header('Location: login.php');
     exit;
@@ -13,7 +13,7 @@ $stmt = $pdo->prepare('SELECT b.book_id, b.title, bb.borrow_date, bb.due_date, b
     ORDER BY bb.borrow_date DESC');
 $stmt->execute([$user_id]);
 $books = $stmt->fetchAll();
-include '../includes/header.php';
+include '../-TRX-PHP-Finals/includes/header.php';
 ?>
 <h2>My Borrowed Books</h2>
 <table>
@@ -42,4 +42,4 @@ include '../includes/header.php';
     </tr>
     <?php endforeach; ?>
 </table>
-<?php include '../includes/footer.php'; ?> 
+<?php include '../-TRX-PHP-Finals/includes/footer.php'; ?> 

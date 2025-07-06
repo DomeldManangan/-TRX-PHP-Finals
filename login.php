@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../config/db.php';
+require_once '../-TRX-PHP-Finals/config/db.php';
 
 $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-<?php include '../includes/header.php'; ?>
+<?php include '../-TRX-PHP-FINALS/includes/header.php'; ?>
 <h2>Login</h2>
 <?php if ($error): ?><div class="error"><?= $error ?></div><?php endif; ?>
 <form method="post">
@@ -29,4 +29,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit">Login</button>
 </form>
 <a href="register.php">Register as Student</a>
-<?php include '../includes/footer.php'; ?> 
+<?php include '../-TRX-PHP-FINALS/includes/footer.php'; ?> 

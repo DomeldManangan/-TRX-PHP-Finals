@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../config/db.php';
+require_once '../-TRX-PHP-Finals/config/db.php';
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-include '../includes/header.php';
+include '../-TRX-PHP-Finals/includes/header.php';
 
 // Fetch all books
 $stmt = $pdo->query('SELECT * FROM books ORDER BY created_at DESC');
@@ -50,4 +50,4 @@ $books = $stmt->fetchAll();
     </tr>
     <?php endforeach; ?>
 </table>
-<?php include '../includes/footer.php'; ?>
+<?php include '../-TRX-PHP-Finals/includes/footer.php'; ?>
