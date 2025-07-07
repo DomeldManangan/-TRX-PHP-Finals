@@ -21,12 +21,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <?php include '../-TRX-PHP-FINALS/includes/header.php'; ?>
-<h2>Login</h2>
-<?php if ($error): ?><div class="error"><?= $error ?></div><?php endif; ?>
-<form method="post">
-    <label>Username: <input type="text" name="username" required></label>
-    <label>Password: <input type="password" name="password" required></label>
-    <button type="submit">Login</button>
-</form>
-<a href="register.php">Register as Student</a>
-<?php include '../-TRX-PHP-FINALS/includes/footer.php'; ?> 
+
+<div class="wallpaper" style="background-image: url('assets/img/library2.jpg');"></div>
+
+<div class="login-card">
+    <h2>Login</h2>
+    <?php if ($error): ?><div class="error"><?= $error ?></div><?php endif; ?>
+    <form method="post">
+        <label>Username: <input type="text" name="username" required></label>
+        <label>Password: <input type="password" name="password" required></label>
+        <button type="submit">Login</button>
+    </form>
+    <a href="register.php">Register as Student</a>
+</div>
+
+<?php include '../-TRX-PHP-FINALS/includes/footer.php'; ?>

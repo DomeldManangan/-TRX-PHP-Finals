@@ -1,0 +1,200 @@
+/* Responsive styles for about.php */
+
+/* Responsive styles for iPhone (max-width: 480px) */
+@media (max-width: 480px) {
+    .section1 {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    .section1_left, .section1_right {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section1_left h2 {
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    .section1_left p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+    .section1_right h2 {
+        font-size: 4rem;
+        letter-spacing: -2px;
+    }
+    .team-section {
+        padding: 2rem 1rem;
+    }
+    .team-section h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .team-card {
+        width: 100% !important;
+        max-width: 600px !important;
+        padding: 1rem;
+    }
+    .team-card img {
+        max-width: 100%;
+        height: auto;
+    }
+    .team-card h3 {
+        font-size: 1.2rem;
+    }
+    .team-card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive styles for Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+    .section1_left, .section1_right {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section1_left h2 {
+        font-size: 2.5rem;
+        max-width: 100%;
+    }
+    .section1_left p {
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+    .section1_right h2 {
+        font-size: 5rem;
+        letter-spacing: -3px;
+    }
+    .team-section {
+        padding: 3rem 1.5rem;
+    }
+    .team-section h2 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+    }
+    .team-cards {
+        gap: 1.5rem;
+    }
+    .team-card {
+        width: 45vw;
+        padding: 1.2rem;
+    }
+    .team-card img {
+        height: 200px;
+    }
+    .team-card h3 {
+        font-size: 1.3rem;
+    }
+    .team-card p {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive styles for Laptop (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .section1 {
+        flex-direction: column;
+        height: auto;
+        padding: 3rem;
+    }
+    .section1_left, .section1_right {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section1_right {
+        order: -1;
+    }
+    .section1_left h2 {
+        font-size: 2.8rem;
+        max-width: 100%;
+    }
+    .section1_left p {
+        font-size: 1.15rem;
+        max-width: 100%;
+    }
+    .section1_right h2 {
+        font-size: 6rem;
+        letter-spacing: -4px;
+    }
+    .team-section {
+        padding: 3.5rem 2rem;
+    }
+    .team-section h2 {
+        font-size: 4.5rem;
+        margin-bottom: 3rem;
+    }
+    .team-cards {
+        gap: 1.8rem;
+    }
+    .team-card {
+        width: 30vw;
+        padding: 1.3rem;
+    }
+    .team-card img {
+        height: 210px;
+    }
+    .team-card h3 {
+        font-size: 1.4rem;
+    }
+    .team-card p {
+        font-size: 1rem;
+    }
+}
+
+/* Added responsive header styles for max-width 480px */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+    .logo-container {
+        margin: 0 auto 0.5rem auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo {
+        height: 3.5rem;
+    }
+    .nav-container1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .nav-container1 a {
+        font-size: 0.9rem;
+        margin: 0.3rem 0.5rem;
+    }
+    .nav-container2 {
+        margin: 0 auto;
+        font-size: 0.9rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }

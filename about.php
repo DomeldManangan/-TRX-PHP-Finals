@@ -13,6 +13,7 @@ include '../-TRX-PHP-Finals/includes/header.php';
 ?>
 
 <html>
+
     <section class="section1">
         <div class="section1_left">
             <h2>
@@ -24,6 +25,32 @@ include '../-TRX-PHP-Finals/includes/header.php';
         </div>
         <div class= "section1_right">
             <h2>LIBRAX.</h2>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <h2>Our Team</h2>
+        <div class="team-cards">
+            <div class="team-card">
+                <img src="../-TRX-PHP-Finals/assets/img/6.png" alt="Team Member 1">
+                <h3>Domeld Manangan</h3>
+                <p>Developer, Front-end</p>
+            </div>
+            <div class="team-card">
+                <img src="assets/img/team2.jpg" alt="Team Member 2">
+                <h3>Mike Acosta</h3>
+                <p>Developer, Back-end</p>
+            </div>
+            <div class="team-card">
+                <img src="../-TRX-PHP-Finals/assets/img/7.png" alt="Team Member 3">
+                <h3>Arvin Tumbagahon</h3>
+                <p>Developer, Back-end</p>
+            </div>
+            <div class="team-card">
+                <img src="../-TRX-PHP-Finals/assets/img/8.png" alt="Team Member 4">
+                <h3>Sean Mojica</h3>
+                <p>Developer, Front-end</p>
+            </div>
         </div>
     </section>
 </html>
