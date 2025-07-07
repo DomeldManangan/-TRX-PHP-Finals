@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../config/db.php';
+require_once '../-TRX-PHP-Finals/config/db.php';
 
 // Check if user is logged in and is admin
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     exit;
 }
 
-include '../includes/header.php';
+include '../-TRX-PHP-Finals/includes/header.php';
 
 $title = $author = $year = $genre = '';
 $errors = [];
@@ -60,4 +60,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit">Add Book</button>
 </form>
 <a href="index.php">Back to List</a>
-<?php include '../includes/footer.php'; ?> 
+<?php include '../-TRX-PHP-Finals/includes/footer.php'; ?> 

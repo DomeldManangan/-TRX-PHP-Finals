@@ -21,13 +21,13 @@
             <a href="about.php">About us</a>
             <a href="booklist.php">Book list</a>
              <?php if (isset($_SESSION['username'])): ?>
-                <a href="logout.php">Logout</a>
                 <?php if ($_SESSION['role'] === 'admin'): ?>
                     <a href="add.php">Add Book</a>
                     <a href="manage_users.php">Manage Users</a>
                 <?php else: ?>
                     <a href="mybooks.php">My Books</a>
                 <?php endif; ?>
+                <a href="logout.php">Logout</a>
             <?php else: ?>
                 <a href="login.php">Login</a>
             <?php endif; ?>

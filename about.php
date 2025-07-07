@@ -37,7 +37,7 @@ include '../-TRX-PHP-Finals/includes/header.php';
                 <p>Developer, Front-end</p>
             </div>
             <div class="team-card">
-                <img src="assets/img/team2.jpg" alt="Team Member 2">
+                <img src="../-TRX-PHP-Finals/assets/img/mike.png" alt="Team Member 2">
                 <h3>Mike Acosta</h3>
                 <p>Developer, Back-end</p>
             </div>
