@@ -24,8 +24,8 @@
         max-width: 100%;
     }
     .section1_right h2 {
-        font-size: 4rem;
-        letter-spacing: -2px;
+        font-size: 5rem !important;
+        letter-spacing: -1px;
     }
     .team-section {
         padding: 2rem 1rem;
