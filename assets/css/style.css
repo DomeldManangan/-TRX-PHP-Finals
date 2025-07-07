@@ -503,3 +503,26 @@ header {
     color: #ccc;
     margin: 0;
 }
+
+/* Mission and Vision Section */
+.mission-vision-section {
+    padding: 4rem 2rem;
+    background-color: #222;
+    color: #ff9100;
+    text-align: center;
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+.mission-vision-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.mission-vision-section p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+    color: #f4f4f4;
+}

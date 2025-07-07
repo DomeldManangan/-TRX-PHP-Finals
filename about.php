@@ -28,6 +28,17 @@ include '../-TRX-PHP-Finals/includes/header.php';
         </div>
     </section>
 
+    <section class="mission-vision-section">
+        <h2>Mission</h2>
+        <p>
+            Our mission is to provide an efficient, user-friendly library management system that enhances the experience of both library staff and patrons by simplifying book borrowing, returns, and catalog management.
+        </p>
+        <h2>Vision</h2>
+        <p>
+            We envision a future where libraries are seamlessly integrated with technology, fostering a love for reading and learning by making resources easily accessible to everyone.
+        </p>
+    </section>
+
     <section class="team-section">
         <h2>Our Team</h2>
         <div class="team-cards">
